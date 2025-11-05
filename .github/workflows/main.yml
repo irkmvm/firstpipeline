@@ -18,6 +18,7 @@ jobs:
 
       - name: Restore packages
         run: dotnet restore
+        working-directory: ./TelegramBot/TelegramBot.csproj
 
       - name: Build
         run: dotnet build --no-restore
