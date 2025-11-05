@@ -1,0 +1,50 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider / JetBrains
+.idea/
+
+# Logs
+*.log
+logs/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Publish output
+publish/
+out/
+
+# Environment files
+*.env
+
+# Secrets files
+appsettings.Development.json
+
+# ASP.NET https development certificate
+*.pfx
+*.p12
+
+# Docker
+docker-compose.override.yml
+
+# Coverage / Test
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Cache
+.nuget/
